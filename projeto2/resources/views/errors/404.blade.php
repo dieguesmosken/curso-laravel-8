@@ -37,7 +37,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Hippotec Web App - Error 404</title>
+    <title>Hippotec Web - Error 404</title>
    
     <style type="text/css">
     html {
@@ -114,7 +114,7 @@
 <body style="background-color: #00abec;">
     <div id="feature">
         <div id="content">
-            <h1><i class= "icon-warning-sign" ></i> 404 Site não encontrado. </h1>
+            <h1><i class= "fas fa-warning-sign" ></i> 404 Site não encontrado. </h1>
             <p> Você pode estar vendo este erro por um dos motivos listados abaixo: </p>
             <ul>
                 <li> O domínio personalizado não foi configurado no Hippotec. tente mapear um domínio existente </a> para
