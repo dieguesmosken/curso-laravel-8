@@ -40,7 +40,7 @@ button {
                 href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
                     class="fa fa-bars"></i></a>
             <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">SOBRE NÓS</a>
+            <a href="#imagens_sobre" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">SOBRE NÓS</a>
             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">TABELA DOENÇAS</a>
             <a href="/Cadastro" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CADASTRO</a>
             <a href="https://coronavirus.saude.gov.br/"
@@ -51,10 +51,10 @@ button {
 
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+            <a href="#imagens_sobre" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
             <a href="sobre.html" class="w3-bar-item w3-button w3-padding-large">Sobre</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+            <a href="#imagens_sobre" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+            <a href="#imagens_sobre" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
         </div>
     </div>
 
@@ -72,12 +72,12 @@ button {
         <div class="w3-content">
             <div class="w3-twothird">
 
-                <div class="w3-cell-row">
+                <div class="w3-cell-row" id="imagens_sobre">
                     <div class="w3-container w3-green w3-cell">
 
                         <div class="card-body">
                             <br>
-                            <img src="IMG/bruno.jpg" width="300px" height="300px" class="card-img-top"
+                            <img src="img/bruno.png" width="300px" height="300px" class="card-img-top"
                                 alt="imagem não encontrada">
                             <h5 class="card-title">BRUNO TAIKI SADANO CHIGA</h5>
                             <p class="card-text">Olá, sou um jovem desenvolvedor, técnico em programação, viciado gamer
@@ -91,7 +91,7 @@ button {
 
                         <div class="card-body">
                             <br>
-                            <img src="IMG/matheus.jpg" width="300px" height="300px" class="card-img-top"
+                            <img src="img/matheus.png" width="300px" height="300px" class="card-img-top"
                                 alt="imagem não encontrada">
                             <h5 class="card-title">Matheus Mosken Diegues</h5>
                             <p class="card-text">Bem, eu tenho 18 anos e desde a tempos sou um grande entusiasta de
@@ -103,7 +103,7 @@ button {
                     <div class="w3-container w3-cell w3-red">
                         <div class="card-body">
                             <br>
-                            <img src="IMG/george.jpg" width="300px" height="300px" class="card-img-top"
+                            <img src="img/george.png" width="300px" height="300px" class="card-img-top"
                                 alt="imagem não encontrada">
                             <h5 class="card-title">George Antony Oliveira</h5>
                             <p class="card-text"><br>Hello, venho aqui me apresentar, com 16 anos sou um jovem

@@ -34,6 +34,9 @@ Route::get('/Sobre', function (){
 Route::get('/Cadastro', function (){
     return view('cadastro');
 });
+Route::get('/ADM/admin', function (){
+    return view('/admin/adm');
+});
 Route::get('/How-It-Works', function (){
     return view('howitworks');
 });
