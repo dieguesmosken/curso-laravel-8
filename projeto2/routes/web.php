@@ -1,10 +1,16 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProdutosController;
+use App\Http\Controllers\{
+    HomeController,
+    ProdutosController,
+    UsuariosController
+};
+
+
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/Produtos', [ProdutosController::class, 'index']);
+Route::get('/Usuarios', [UsuariosController::class, 'index']);
 Route::post('/Produtos', [ProdutosController::class, 'index']);
 
 Route::get('/Sobre', function (){
