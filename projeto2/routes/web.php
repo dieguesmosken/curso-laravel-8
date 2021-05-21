@@ -13,7 +13,10 @@ Route::get('/Sobre', function (){
 Route::get('/Cadastro', function (){
     return view('cadastro');
 });
-
+Route::get('/How-It-Works', function (){
+    return view('howitworks');
+});
+//---------------------------------
 //admin routs
 Route::get('/ADM/admin', function (){
     return view('/admin/adm');
@@ -26,11 +29,11 @@ Route::get('/login/login', function (){
 Route::get('/login/sair', function (){
     return view('/login/sair');
 });
-
-
-Route::get('/How-It-Works', function (){
-    return view('howitworks');
+Route::post('login/validacao-user', function (){
+    return view('/login/valida');
 });
+//----------------------------------------
+
 
 Route::get('/produtos/{nomedoproduto}', function ($nomedoproduto){
     echo '<h1>Pagina do Produto: </h1>'.$nomedoproduto;
@@ -59,4 +62,8 @@ php -S localhost:8000 -t public
 Route::get('/', function (){
     return view('home');
 });
+
+
+criar um novo medel e controler e migrate(nome Usuarios)
+php artisan make:model Usuarios -mc
 */
