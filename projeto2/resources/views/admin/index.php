@@ -1,8 +1,7 @@
 <?php
-/*
 session_start();
 if(!empty($_SESSION['id'])){
-*/	
+	
 ?>
 
 
@@ -77,13 +76,11 @@ button {
         </div>
     </div>
     <?php 
-    /*
 require_once '../Controller/UsersController.php';
 
 $users = UsersController::listarUsers();
-*/$users = "";
-?>
 
+?>
     <!-- Header -->
 
 
@@ -168,9 +165,8 @@ foreach($users as $registro){
 
 </html>
 <?php
-/*
 }else{
 	$_SESSION['msg'] = "Área restrita";
 	header("Location: login/login.php");	
-}*/
+}
 ?>

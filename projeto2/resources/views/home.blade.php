@@ -47,8 +47,18 @@ button {
             <a href="/Cadastro" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CADASTRO</a>
             <a href="https://coronavirus.saude.gov.br/"
                 class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">COVID-19</a>
-            <a href="/How-It-Works" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">COMO
+            <a href="/error/307?OriginPage=How-It-Works" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">COMO
                 FUNCIONA</a>
+                <?php 
+                if(!empty($_SESSION['id'])){
+                    ?>
+                    <a class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><?php echo $_SESSION['nome'] ?></a>
+                    <a href="login/sair" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sair</a>
+                    <?php
+                }else{
+                    echo "<a href='/login/login' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Login</a>";
+                }
+                ?>
         </div>
 
         <!-- Navbar on small screens -->

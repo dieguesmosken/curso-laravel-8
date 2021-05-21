@@ -170,7 +170,16 @@ window.onload = function() {
             }?>
             <p> Você pode estar vendo este erro por um dos motivos listados abaixo: </p>
             <ul>
-                <li> O domínio personalizado não foi configurado no Hippotec. tente mapear um domínio existente </a>
+                <li> O domínio <?php
+            if(!empty($OriginPage)){
+                    if($OriginPage == "notExists"){
+                        echo ";-; KKKK vc é insistente"; 
+                    }else{
+                        echo "/$OriginPage";
+                    }
+            }else{
+                echo "<i class= 'fa fa-exclamation-triangle ></i> Variavel OriginPage vazia.";
+            }?> não foi configurado no Hippotec. tente mapear um domínio existente </a>
                     para
                     resolver isso. </li>
                 <li> O cache do cliente ainda está apontando o domínio para o endereço IP antigo. Limpe o cache

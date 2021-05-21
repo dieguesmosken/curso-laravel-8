@@ -13,9 +13,21 @@ Route::get('/Sobre', function (){
 Route::get('/Cadastro', function (){
     return view('cadastro');
 });
+
+//admin routs
 Route::get('/ADM/admin', function (){
     return view('/admin/adm');
 });
+
+//login routs
+Route::get('/login/login', function (){
+    return view('/login/login');
+});
+Route::get('/login/sair', function (){
+    return view('/login/sair');
+});
+
+
 Route::get('/How-It-Works', function (){
     return view('howitworks');
 });
@@ -24,6 +36,10 @@ Route::get('/produtos/{nomedoproduto}', function ($nomedoproduto){
     echo '<h1>Pagina do Produto: </h1>'.$nomedoproduto;
 });
 
+
+Route::get('/error/307', function (){
+    return view('/errors/307');
+});
 
 /*
 
