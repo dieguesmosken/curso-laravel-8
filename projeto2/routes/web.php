@@ -3,14 +3,15 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{
     HomeController,
     ProdutosController,
-    UsuariosController
+    UsuariosController,
+    PostController
 };
 
 
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/Produtos', [ProdutosController::class, 'index']);
-Route::get('/Usuarios', [UsuariosController::class, 'index']);
+Route::get('/Posts', [PostController::class, 'index']);
 Route::post('/Produtos', [ProdutosController::class, 'index']);
 
 Route::get('/Sobre', function (){
