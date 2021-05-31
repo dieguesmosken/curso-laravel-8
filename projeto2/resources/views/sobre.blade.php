@@ -93,6 +93,7 @@ button {
                             <br>
                             <img src="https://techprofile.blob.core.windows.net/images/wN1pN_9UIUykGBT3ETThnw.png?8D917E" width="300px" height="300px" class="card-img-top"
                                 alt="imagem não encontrada">
+                                
                             <h5 class="card-title">Matheus Mosken Diegues</h5>
                             <p class="card-text">Bem, eu tenho 18 anos e desde pequeno sou um grande entusiasta de
                                 tecnologia,tbm sou antenista, estudante de desenvolvimento de sistemas e tecnico em manutenção de
