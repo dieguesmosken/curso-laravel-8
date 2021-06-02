@@ -73,7 +73,7 @@ button {
     <!-- Header -->
     <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
         <h1 class="w3-margin w3-jumbo">BEM VINDO!</h1>
-        <p class="w3-xlarge">User: {{$usuario}} Type: <b>{{$perfil}}</b></p>
+        <p class="w3-xlarge">User: {{$usuario}} <i class="mdi mdi-flower-tulip-outline:"></i>: <b>{{$perfil}}</b></p>
         <p class="w3-xlarge">MAIS SAÚDE PARA VOCÊ</p>
         <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">BAIXE O APP</button>
     </header>
@@ -123,7 +123,7 @@ button {
     </div>
 
     <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-        <h1 class="w3-margin w3-xlarge"><a href="/error?OriginPage=notExists">ERRO INTENCIONAL</a></h1>
+        <h1 class="w3-margin w3-xlarge"><a href="">Hippotec 2021 &copy;</a></h1>
     </div>
 
     <!-- Footer -->
