@@ -65,6 +65,7 @@ composer create-project laravel/laravel nome-projeto --prefer-dist
 criando server
 
 php -S localhost:8000 -t public
+php artisan serve
 
 Route::get('/', function (){
     return view('home');
